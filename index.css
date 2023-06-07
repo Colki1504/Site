@@ -1,0 +1,130 @@
+body{ /*Definindo o fundo*/
+    color:rgb(255, 255, 255);
+    background-color: rgb(38, 38, 38);
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    text-align: center;
+
+}
+
+nav ul{ /*Arrumando a aba navegação*/
+    display: flex;
+    justify-content: space-between;
+    list-style:none;
+    align-items: center;
+    padding: 16px;
+}
+
+a{ /* arrumando a cor e forma da nav*/
+    color: white;
+    text-decoration: none;
+}
+ main p {
+    color: rgb(255, 255, 255);
+    text-decoration: dotted;
+}
+main h1{
+font-size: 15px;
+
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(215, 19, 215);
+}
+
+.center{
+    text-align: center;
+}
+/*Efeito de luz*/
+header h1{
+    text-align: center;
+    color: rgb(76, 6, 76);
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff, 
+    0 0 20px rgb(116, 3, 116), 
+    0 0 30px rgb(116, 3, 116),
+    0 0 40px rgb(116, 3, 116), 
+    0 0 55px rgb(116, 3, 116), 
+    0 0 70px rgb(116, 3, 116);
+
+}
+/*Letra a baixo do nome*/
+h2{
+    text-align: center;
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+/*Criação de Conteiners(Sobre Mim)*/
+.Cart-Countainer{
+    margin-bottom: 2%;
+    margin-left: 15%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    width: 70%;
+    height: 85%;
+    background-color: #000000;
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px rgb(116, 3, 116);
+    height: 25vh;
+} /*Criação de Conteiners(Formação)*/
+.Cart-Countainer-form{
+    margin-left: 25%;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    background-color: #000000;
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px rgb(116, 3, 116);
+    justify-content: center;
+    height: 55vh;
+}
+.Heading{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+   }
+.nik p{
+    margin: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.nik ul{
+    text-align: left;
+    margin-left:20%;
+    font-size: 15px;
+    text-decoration: none;
+    list-style: none;
+
+}
+footer img{
+        width: 40px;
+        height: 40px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+
+} 
+
+footer a{
+    margin: 10px;
+    text-align: center;
+
+}
+
+footer p{
+    margin-top: 2px;
+}

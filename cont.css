@@ -1,0 +1,85 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    color: rgb(255, 255, 255);
+    background-color: rgb( 38, 38, 38);
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+header h1{
+    margin-left: 15px;
+    text-align: center;
+    color: rgb(76, 6, 76);
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff, 
+    0 0 20px rgb(116, 3, 116), 
+    0 0 30px rgb(116, 3, 116),
+    0 0 40px rgb(116, 3, 116), 
+    0 0 55px rgb(116, 3, 116), 
+    0 0 70px rgb(116, 3, 116);
+
+}
+.contato img{
+    margin-left: 18px;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 16px;
+    list-style: none;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+/*coteiners*/
+
+.Cart-Countainer-form{ /*Criando o container*/
+    margin-bottom: 2%;
+    margin-left: 37%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    height: 450px;
+    background-color: #000000;
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px rgb(116, 3, 116);
+    height: 6   0vh;
+    padding: 5px;
+}
+.Cart-Countainer-form input{ /*Arrumando a Caixa de nome e Email*/
+    margin-left: 13px;
+    height: 40px;
+    border-radius: 10px;
+}
+.Cart-Countainer-form textarea{/*arrumado mensagem*/
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.Cart-Countainer-form p{
+    font-weight:bold ;
+    
+}
+button{ /*Arrumando o Botão*/
+    font-weight: bold;
+    margin-left: 15px;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 5px rgb(116, 3, 116);
+}
+.redes img{
+
+    margin: 15px;
+}
